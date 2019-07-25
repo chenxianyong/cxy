@@ -26,13 +26,13 @@ public class RedisUtilTest {
                     boolean setExpire = RedisUtil.setExpire("1", 100);
                     System.out.println(setExpire);
                     if (setExpire) {
-                        Long ttl = RedisUtil.getTTL("1");
+                        Long ttl = RedisUtil.getTtl("1");
                         System.out.println(ttl + " second");
                     }
                     boolean expireAt = RedisUtil.setExpireAt("1", System.currentTimeMillis() + 1000L);
                     System.out.println(expireAt);
                     if (expireAt) {
-                        Long ttl = RedisUtil.getTTL("1");
+                        Long ttl = RedisUtil.getTtl("1");
                         System.out.println(ttl + " unixTime for second");
                     }
                     Boolean existsKey = RedisUtil.exists("1");

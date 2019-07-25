@@ -36,8 +36,8 @@ public class EncodeOrDecodeUtilTest {
         String shaEncodeResult = shaEncode(encodeStr);
         System.out.println("shaEncode = " + shaEncodeResult);
 
-        String string2SHA256Result = String2SHA256(encodeStr);
-        System.out.println("String2SHA256 = " + string2SHA256Result);
+        String string2SHA256Result = sha256Encode(encodeStr);
+        System.out.println("sha256Encode = " + string2SHA256Result);
 
         String hmacEncodeResult = hmacEncode(encodeStr);
         System.out.println("hmacEncode = " + hmacEncodeResult);

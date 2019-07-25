@@ -10,7 +10,7 @@ import static com.chenxianyong.utils.IdDeviceUtil.*;
 public class IdDeviceUtilTest {
     @Test
     public void genIdTest() throws Exception {
-        long genId = genId(IdDeviceUtil.IdType.USER);
+        long genId = getId(IdDeviceUtil.IdType.USER);
         System.out.println(genId);
     }
 
@@ -22,7 +22,7 @@ public class IdDeviceUtilTest {
 
     @Test
     public void generateLongIDTest() throws Exception {
-        long l = generateLongID();
+        long l = generateLongId();
         System.out.println(l);
     }
 
