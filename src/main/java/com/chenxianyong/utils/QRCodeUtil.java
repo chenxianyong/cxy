@@ -27,6 +27,11 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
+/**
+ * @author: ChenXianyong
+ * @description: 生成二维码工具类
+ * @date: 2019/7/25 14:20
+ */
 public class QRCodeUtil {
 	private static Logger logger = LoggerFactory.getLogger(QRCodeUtil.class);
     // 二维码颜色

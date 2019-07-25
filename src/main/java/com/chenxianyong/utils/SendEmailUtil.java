@@ -9,6 +9,11 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+/**
+ * @author: ChenXianyong
+ * @description: 发送邮件工具类
+ * @date: 2019/7/25 14:20
+ */
 public class SendEmailUtil {
 	 /**
      * @author : ChenXianyong

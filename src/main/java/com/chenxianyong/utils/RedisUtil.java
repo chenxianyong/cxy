@@ -4,6 +4,11 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+/**
+ * @author: ChenXianyong
+ * @description: redis工具类
+ * @date: 2019/7/25 14:20
+ */
 public class RedisUtil {
 
 	private static String ip = "47.94.251.74";

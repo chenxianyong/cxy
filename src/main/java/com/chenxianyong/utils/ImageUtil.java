@@ -10,6 +10,11 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
+/**
+ * @author: ChenXianyong
+ * @description: 图片处理工具类
+ * @date: 2019/7/25 14:20
+ */
 public class ImageUtil {
 	 /**
      * @Description 添加图片水印操作(物理存盘,自定义格式)

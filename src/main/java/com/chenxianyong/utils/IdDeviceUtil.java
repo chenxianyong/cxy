@@ -6,6 +6,11 @@ import java.util.Date;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * @author: ChenXianyong
+ * @description: Id生成工具类
+ * @date: 2019/7/25 14:20
+ */
 public class IdDeviceUtil {
 	private static final long ONE_STEP = 10;
     private static final long BASE = 0;

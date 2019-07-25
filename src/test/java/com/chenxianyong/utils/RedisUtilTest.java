@@ -3,9 +3,6 @@ package com.chenxianyong.utils;
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
-/**
- * Created by Administrator on 2019/7/25.
- */
 public class RedisUtilTest {
     @Test
     public void setTest() throws Exception {

@@ -38,7 +38,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@SuppressWarnings({ "deprecation" })
+/**
+ * @author: ChenXianyong
+ * @description: 发送http请求工具类
+ * @date: 2019/7/25 14:20
+ */
 public class HttpUtil {
 	private static PoolingHttpClientConnectionManager connMgr;
 	private static RequestConfig requestConfig;

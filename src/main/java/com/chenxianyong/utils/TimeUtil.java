@@ -10,6 +10,11 @@ import java.util.Calendar;
 import java.util.Date;
 import com.google.common.collect.Range;
 
+/**
+ * @author: ChenXianyong
+ * @description: 时间处理的工具类
+ * @date: 2019/7/25 14:20
+ */
 public class TimeUtil {
 	/**
      * @Description 将制定日期转换成指定格式
