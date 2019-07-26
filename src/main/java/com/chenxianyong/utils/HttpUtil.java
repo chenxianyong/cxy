@@ -13,6 +13,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.TrustStrategy;
+import org.apache.http.conn.ssl.X509HostnameVerifier;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
@@ -21,7 +22,6 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.http.util.EntityUtils;
-import ytx.org.apache.http.conn.ssl.X509HostnameVerifier;
 
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLException;

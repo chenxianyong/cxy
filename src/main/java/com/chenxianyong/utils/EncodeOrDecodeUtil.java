@@ -9,8 +9,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.commons.codec.binary.Hex;
 
-import com.cloopen.rest.sdk.utils.encoder.BASE64Decoder;
-import com.cloopen.rest.sdk.utils.encoder.BASE64Encoder;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 
 /**
  * @author ChenXianyong
