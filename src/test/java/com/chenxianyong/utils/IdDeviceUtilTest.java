@@ -16,7 +16,7 @@ public class IdDeviceUtilTest {
 
     @Test
     public void generateIDTest() throws Exception {
-        long l = generateID();
+        long l = generateId();
         System.out.println(l);
     }
 
