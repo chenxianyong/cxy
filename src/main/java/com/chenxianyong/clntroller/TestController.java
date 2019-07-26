@@ -15,8 +15,8 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/test")
     public String test() {
+        String s = null;
         System.out.println("test");
-
         return "Test";
     }
 }
