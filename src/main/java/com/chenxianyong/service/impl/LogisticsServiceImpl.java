@@ -1,7 +1,6 @@
 package com.chenxianyong.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.chenxianyong.clntroller.LogisticsController;
 import com.chenxianyong.enums.LogisticsCompany;
 import com.chenxianyong.model.logistics.Logistics;
 import com.chenxianyong.service.LogisticsService;
@@ -12,7 +11,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Objects;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

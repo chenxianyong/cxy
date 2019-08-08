@@ -13,8 +13,8 @@ public class RedisUtil {
 
     public static final String REDIS_SET_RESULT = "OK";
     private static String IP = "47.94.251.74";
-    private static Integer PORT = 6379;
-    private static String PWD = "okejia88";
+    private static Integer PORT = 6637;
+    private static String PWD = "5zqvur6k";
     private static int MAX_POOL = 1000;
     /**
      * 控制一个pool最多有多少个状态为idle(空闲的)的jedis实例，默认值也是8。
